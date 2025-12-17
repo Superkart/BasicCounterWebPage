@@ -9,7 +9,7 @@ const app = new Hono<{ Bindings: Env }>();
 //app.get("/", (c) => c.text("Worker is running!"));
 
 // TODO: change "Cloudflare" to your NetID
-app.get("/api/name", (c) => c.json({ name: "kragi" }));
+app.get("/api/name", (c) => c.json({ name: "Karthik Ragi" }));
 
 app.get("/api/highScore", async (c) => {
   const db = drizzle(c.env.DB);

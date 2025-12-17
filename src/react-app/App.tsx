@@ -27,12 +27,9 @@ function App() {
   return (
     <>
       <header>
-        <h1>Welcome to my first Web App!</h1>
+        <h1>Welcome to my Basic Counter Web App!</h1>
       </header>
       <div>
-        <a href="https://484.cs.uic.edu/" target="_blank" rel="noopener">
-          <img src={uicLogo} className="logo uic" alt="UIC logo" />
-        </a>
         <a href="https://vite.dev" target="_blank" rel="noopener">
           <img src={viteLogo} className="logo vite" alt="Vite logo" />
         </a>
@@ -80,7 +77,7 @@ function App() {
           }}
           aria-label="get name"
         >
-          NetID from API is: {name}
+          Name is : {name}
         </button>
         <p>
           Edit <code>worker/index.ts</code> to change the name
