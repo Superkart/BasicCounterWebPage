@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Welcome to my first CS 484 app!</h1>
+        <h1>Welcome to my first Web App!</h1>
       </header>
       <div>
         <a href="https://484.cs.uic.edu/" target="_blank" rel="noopener">
