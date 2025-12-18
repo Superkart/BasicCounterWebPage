@@ -4,7 +4,7 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-hono-app",
+  "name": "counter",
   "main": "./src/worker/index.ts",
 
   "compatibility_date": "2025-04-01",
@@ -27,7 +27,7 @@
     {
       "binding": "DB",
       "database_name": "test-db",
-      "database_id": "de08e380-c2ed-4fe7-98a0-a45ca623debb",
+      "database_id": "ec547728-3e56-4c74-a552-5588cded39d2",
       "migrations_dir": "./drizzle/"
     }
   ],
