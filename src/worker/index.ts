@@ -1,8 +1,7 @@
 import { drizzle } from "drizzle-orm/d1";
 import { Hono } from "hono";
 import { users } from "../../db/schema";
-import { desc, max } from "drizzle-orm";
-import { hashQuery } from "drizzle-orm/cache/core";
+import { desc } from "drizzle-orm";
 
 const app = new Hono<{ Bindings: Env }>();
 

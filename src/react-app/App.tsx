@@ -5,7 +5,6 @@ import cloudflareLogo from "./assets/cloudflare.svg";
 import drizzleLogo from "./assets/drizzle.svg";
 import honoLogo from "./assets/hono.svg";
 import reactLogo from "./assets/react.svg";
-import uicLogo from "./assets/uic.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 
